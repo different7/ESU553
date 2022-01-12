@@ -192,6 +192,136 @@ e\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\e.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\e.dir\build
 .PHONY : e\fast
 
+#=============================================================================
+# Target rules for targets named f
+
+# Build rule for target.
+f : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) f
+.PHONY : f
+
+# fast build rule for target.
+f\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\f.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\f.dir\build
+.PHONY : f\fast
+
+#=============================================================================
+# Target rules for targets named g
+
+# Build rule for target.
+g : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) g
+.PHONY : g
+
+# fast build rule for target.
+g\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\g.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\g.dir\build
+.PHONY : g\fast
+
+#=============================================================================
+# Target rules for targets named h
+
+# Build rule for target.
+h : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) h
+.PHONY : h
+
+# fast build rule for target.
+h\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\h.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\h.dir\build
+.PHONY : h\fast
+
+#=============================================================================
+# Target rules for targets named i
+
+# Build rule for target.
+i : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) i
+.PHONY : i
+
+# fast build rule for target.
+i\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\i.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\i.dir\build
+.PHONY : i\fast
+
+#=============================================================================
+# Target rules for targets named j
+
+# Build rule for target.
+j : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) j
+.PHONY : j
+
+# fast build rule for target.
+j\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\j.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\j.dir\build
+.PHONY : j\fast
+
+#=============================================================================
+# Target rules for targets named k
+
+# Build rule for target.
+k : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) k
+.PHONY : k
+
+# fast build rule for target.
+k\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\k.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\k.dir\build
+.PHONY : k\fast
+
+#=============================================================================
+# Target rules for targets named l
+
+# Build rule for target.
+l : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) l
+.PHONY : l
+
+# fast build rule for target.
+l\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\l.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\l.dir\build
+.PHONY : l\fast
+
+#=============================================================================
+# Target rules for targets named m
+
+# Build rule for target.
+m : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) m
+.PHONY : m
+
+# fast build rule for target.
+m\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\m.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\m.dir\build
+.PHONY : m\fast
+
+#=============================================================================
+# Target rules for targets named n
+
+# Build rule for target.
+n : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) n
+.PHONY : n
+
+# fast build rule for target.
+n\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\n.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\n.dir\build
+.PHONY : n\fast
+
+#=============================================================================
+# Target rules for targets named o
+
+# Build rule for target.
+o : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) o
+.PHONY : o
+
+# fast build rule for target.
+o\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\o.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\o.dir\build
+.PHONY : o\fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -354,6 +484,276 @@ practice\3_16.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\e.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\e.dir\practice\3_16.cpp.s
 .PHONY : practice\3_16.cpp.s
 
+practice\3__10.obj: practice\3__10.cpp.obj
+
+.PHONY : practice\3__10.obj
+
+# target to build an object file
+practice\3__10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\i.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\i.dir\practice\3__10.cpp.obj
+.PHONY : practice\3__10.cpp.obj
+
+practice\3__10.i: practice\3__10.cpp.i
+
+.PHONY : practice\3__10.i
+
+# target to preprocess a source file
+practice\3__10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\i.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\i.dir\practice\3__10.cpp.i
+.PHONY : practice\3__10.cpp.i
+
+practice\3__10.s: practice\3__10.cpp.s
+
+.PHONY : practice\3__10.s
+
+# target to generate assembly for a file
+practice\3__10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\i.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\i.dir\practice\3__10.cpp.s
+.PHONY : practice\3__10.cpp.s
+
+practice\3__12.obj: practice\3__12.cpp.obj
+
+.PHONY : practice\3__12.obj
+
+# target to build an object file
+practice\3__12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\j.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\j.dir\practice\3__12.cpp.obj
+.PHONY : practice\3__12.cpp.obj
+
+practice\3__12.i: practice\3__12.cpp.i
+
+.PHONY : practice\3__12.i
+
+# target to preprocess a source file
+practice\3__12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\j.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\j.dir\practice\3__12.cpp.i
+.PHONY : practice\3__12.cpp.i
+
+practice\3__12.s: practice\3__12.cpp.s
+
+.PHONY : practice\3__12.s
+
+# target to generate assembly for a file
+practice\3__12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\j.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\j.dir\practice\3__12.cpp.s
+.PHONY : practice\3__12.cpp.s
+
+practice\3__13.obj: practice\3__13.cpp.obj
+
+.PHONY : practice\3__13.obj
+
+# target to build an object file
+practice\3__13.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\k.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\k.dir\practice\3__13.cpp.obj
+.PHONY : practice\3__13.cpp.obj
+
+practice\3__13.i: practice\3__13.cpp.i
+
+.PHONY : practice\3__13.i
+
+# target to preprocess a source file
+practice\3__13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\k.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\k.dir\practice\3__13.cpp.i
+.PHONY : practice\3__13.cpp.i
+
+practice\3__13.s: practice\3__13.cpp.s
+
+.PHONY : practice\3__13.s
+
+# target to generate assembly for a file
+practice\3__13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\k.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\k.dir\practice\3__13.cpp.s
+.PHONY : practice\3__13.cpp.s
+
+practice\3__14.obj: practice\3__14.cpp.obj
+
+.PHONY : practice\3__14.obj
+
+# target to build an object file
+practice\3__14.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\l.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\l.dir\practice\3__14.cpp.obj
+.PHONY : practice\3__14.cpp.obj
+
+practice\3__14.i: practice\3__14.cpp.i
+
+.PHONY : practice\3__14.i
+
+# target to preprocess a source file
+practice\3__14.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\l.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\l.dir\practice\3__14.cpp.i
+.PHONY : practice\3__14.cpp.i
+
+practice\3__14.s: practice\3__14.cpp.s
+
+.PHONY : practice\3__14.s
+
+# target to generate assembly for a file
+practice\3__14.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\l.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\l.dir\practice\3__14.cpp.s
+.PHONY : practice\3__14.cpp.s
+
+practice\3__15.obj: practice\3__15.cpp.obj
+
+.PHONY : practice\3__15.obj
+
+# target to build an object file
+practice\3__15.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\m.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\m.dir\practice\3__15.cpp.obj
+.PHONY : practice\3__15.cpp.obj
+
+practice\3__15.i: practice\3__15.cpp.i
+
+.PHONY : practice\3__15.i
+
+# target to preprocess a source file
+practice\3__15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\m.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\m.dir\practice\3__15.cpp.i
+.PHONY : practice\3__15.cpp.i
+
+practice\3__15.s: practice\3__15.cpp.s
+
+.PHONY : practice\3__15.s
+
+# target to generate assembly for a file
+practice\3__15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\m.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\m.dir\practice\3__15.cpp.s
+.PHONY : practice\3__15.cpp.s
+
+practice\3__7.obj: practice\3__7.cpp.obj
+
+.PHONY : practice\3__7.obj
+
+# target to build an object file
+practice\3__7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\f.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\f.dir\practice\3__7.cpp.obj
+.PHONY : practice\3__7.cpp.obj
+
+practice\3__7.i: practice\3__7.cpp.i
+
+.PHONY : practice\3__7.i
+
+# target to preprocess a source file
+practice\3__7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\f.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\f.dir\practice\3__7.cpp.i
+.PHONY : practice\3__7.cpp.i
+
+practice\3__7.s: practice\3__7.cpp.s
+
+.PHONY : practice\3__7.s
+
+# target to generate assembly for a file
+practice\3__7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\f.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\f.dir\practice\3__7.cpp.s
+.PHONY : practice\3__7.cpp.s
+
+practice\3__8.obj: practice\3__8.cpp.obj
+
+.PHONY : practice\3__8.obj
+
+# target to build an object file
+practice\3__8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\g.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\g.dir\practice\3__8.cpp.obj
+.PHONY : practice\3__8.cpp.obj
+
+practice\3__8.i: practice\3__8.cpp.i
+
+.PHONY : practice\3__8.i
+
+# target to preprocess a source file
+practice\3__8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\g.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\g.dir\practice\3__8.cpp.i
+.PHONY : practice\3__8.cpp.i
+
+practice\3__8.s: practice\3__8.cpp.s
+
+.PHONY : practice\3__8.s
+
+# target to generate assembly for a file
+practice\3__8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\g.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\g.dir\practice\3__8.cpp.s
+.PHONY : practice\3__8.cpp.s
+
+practice\3__9.obj: practice\3__9.cpp.obj
+
+.PHONY : practice\3__9.obj
+
+# target to build an object file
+practice\3__9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\h.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\h.dir\practice\3__9.cpp.obj
+.PHONY : practice\3__9.cpp.obj
+
+practice\3__9.i: practice\3__9.cpp.i
+
+.PHONY : practice\3__9.i
+
+# target to preprocess a source file
+practice\3__9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\h.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\h.dir\practice\3__9.cpp.i
+.PHONY : practice\3__9.cpp.i
+
+practice\3__9.s: practice\3__9.cpp.s
+
+.PHONY : practice\3__9.s
+
+# target to generate assembly for a file
+practice\3__9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\h.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\h.dir\practice\3__9.cpp.s
+.PHONY : practice\3__9.cpp.s
+
+practice\4_1.obj: practice\4_1.cpp.obj
+
+.PHONY : practice\4_1.obj
+
+# target to build an object file
+practice\4_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\n.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\n.dir\practice\4_1.cpp.obj
+.PHONY : practice\4_1.cpp.obj
+
+practice\4_1.i: practice\4_1.cpp.i
+
+.PHONY : practice\4_1.i
+
+# target to preprocess a source file
+practice\4_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\n.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\n.dir\practice\4_1.cpp.i
+.PHONY : practice\4_1.cpp.i
+
+practice\4_1.s: practice\4_1.cpp.s
+
+.PHONY : practice\4_1.s
+
+# target to generate assembly for a file
+practice\4_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\n.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\n.dir\practice\4_1.cpp.s
+.PHONY : practice\4_1.cpp.s
+
+practice\4_2.obj: practice\4_2.cpp.obj
+
+.PHONY : practice\4_2.obj
+
+# target to build an object file
+practice\4_2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\o.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\o.dir\practice\4_2.cpp.obj
+.PHONY : practice\4_2.cpp.obj
+
+practice\4_2.i: practice\4_2.cpp.i
+
+.PHONY : practice\4_2.i
+
+# target to preprocess a source file
+practice\4_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\o.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\o.dir\practice\4_2.cpp.i
+.PHONY : practice\4_2.cpp.i
+
+practice\4_2.s: practice\4_2.cpp.s
+
+.PHONY : practice\4_2.s
+
+# target to generate assembly for a file
+practice\4_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\o.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\o.dir\practice\4_2.cpp.s
+.PHONY : practice\4_2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -368,6 +768,16 @@ help:
 	@echo ... c
 	@echo ... d
 	@echo ... e
+	@echo ... f
+	@echo ... g
+	@echo ... h
+	@echo ... i
+	@echo ... j
+	@echo ... k
+	@echo ... l
+	@echo ... m
+	@echo ... n
+	@echo ... o
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -386,6 +796,36 @@ help:
 	@echo ... practice/3_16.obj
 	@echo ... practice/3_16.i
 	@echo ... practice/3_16.s
+	@echo ... practice/3__10.obj
+	@echo ... practice/3__10.i
+	@echo ... practice/3__10.s
+	@echo ... practice/3__12.obj
+	@echo ... practice/3__12.i
+	@echo ... practice/3__12.s
+	@echo ... practice/3__13.obj
+	@echo ... practice/3__13.i
+	@echo ... practice/3__13.s
+	@echo ... practice/3__14.obj
+	@echo ... practice/3__14.i
+	@echo ... practice/3__14.s
+	@echo ... practice/3__15.obj
+	@echo ... practice/3__15.i
+	@echo ... practice/3__15.s
+	@echo ... practice/3__7.obj
+	@echo ... practice/3__7.i
+	@echo ... practice/3__7.s
+	@echo ... practice/3__8.obj
+	@echo ... practice/3__8.i
+	@echo ... practice/3__8.s
+	@echo ... practice/3__9.obj
+	@echo ... practice/3__9.i
+	@echo ... practice/3__9.s
+	@echo ... practice/4_1.obj
+	@echo ... practice/4_1.i
+	@echo ... practice/4_1.s
+	@echo ... practice/4_2.obj
+	@echo ... practice/4_2.i
+	@echo ... practice/4_2.s
 .PHONY : help
 
 
