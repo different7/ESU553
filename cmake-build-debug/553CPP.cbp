@@ -17,16 +17,6 @@
 					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="D:/553CPP/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="b">
 				<Option output="D:/553CPP/cmake-build-debug/b.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/553CPP/cmake-build-debug"/>
@@ -227,16 +217,6 @@
 					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/553CPP/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="e">
 				<Option output="D:/553CPP/cmake-build-debug/e.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/553CPP/cmake-build-debug"/>
@@ -277,6 +257,426 @@
 					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="f">
+				<Option output="D:/553CPP/cmake-build-debug/f.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 f"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="f/fast">
+				<Option output="D:/553CPP/cmake-build-debug/f.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 f/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="g">
+				<Option output="D:/553CPP/cmake-build-debug/g.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 g"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="g/fast">
+				<Option output="D:/553CPP/cmake-build-debug/g.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 g/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h">
+				<Option output="D:/553CPP/cmake-build-debug/h.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 h"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h/fast">
+				<Option output="D:/553CPP/cmake-build-debug/h.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 h/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i">
+				<Option output="D:/553CPP/cmake-build-debug/i.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 i"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i/fast">
+				<Option output="D:/553CPP/cmake-build-debug/i.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 i/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="j">
+				<Option output="D:/553CPP/cmake-build-debug/j.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 j"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="j/fast">
+				<Option output="D:/553CPP/cmake-build-debug/j.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 j/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="k">
+				<Option output="D:/553CPP/cmake-build-debug/k.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 k"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="k/fast">
+				<Option output="D:/553CPP/cmake-build-debug/k.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 k/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="l">
+				<Option output="D:/553CPP/cmake-build-debug/l.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 l"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="l/fast">
+				<Option output="D:/553CPP/cmake-build-debug/l.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 l/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m">
+				<Option output="D:/553CPP/cmake-build-debug/m.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 m"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m/fast">
+				<Option output="D:/553CPP/cmake-build-debug/m.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 m/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="n">
+				<Option output="D:/553CPP/cmake-build-debug/n.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 n"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="n/fast">
+				<Option output="D:/553CPP/cmake-build-debug/n.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 n/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="o">
+				<Option output="D:/553CPP/cmake-build-debug/o.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 o"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="o/fast">
+				<Option output="D:/553CPP/cmake-build-debug/o.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\VS2013\VC\INCLUDE"/>
+					<Add directory="F:\VS2013\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 o/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/553CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\553CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="D:/553CPP/main.cpp">
 			<Option target="553CPP"/>
@@ -295,6 +695,36 @@
 		</Unit>
 		<Unit filename="D:/553CPP/practice/3_16.cpp">
 			<Option target="e"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__10.cpp">
+			<Option target="i"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__12.cpp">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__13.cpp">
+			<Option target="k"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__14.cpp">
+			<Option target="l"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__15.cpp">
+			<Option target="m"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__7.cpp">
+			<Option target="f"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__8.cpp">
+			<Option target="g"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/3__9.cpp">
+			<Option target="h"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/4_1.cpp">
+			<Option target="n"/>
+		</Unit>
+		<Unit filename="D:/553CPP/practice/4_2.cpp">
+			<Option target="o"/>
 		</Unit>
 		<Unit filename="D:/553CPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
