@@ -35,6 +35,6 @@ void Tree::age(){
 int main(){
     Tree t(22);
     t.age();
-    t.grow(0.7);
+    t.grow(1);
     return 0;
 }
