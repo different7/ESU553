@@ -5,5 +5,74 @@
  * 要求包括：构造函数和析构函数、复制构造函数、内联成员函数、带默认形参值的成员函数、类的组合。
  */
 #include<iostream>
+#include<string>
 using namespace std;
 
+class Date{
+private:
+    int year, month, day;
+public:
+    Date(int Y, int M, int D){
+        year = Y;
+        month = M;
+        day = D;
+    }
+    void set(){
+        cin>>year>>month>>day;
+    }
+    void display(){
+        cout<<year<<"/"<<month<<"/"<<day;
+    }
+};
+
+class Person{
+private:
+    int num;
+    char sex;
+    Date birthday;
+    char ID[18];
+public:
+    Person(Date birthday) : birthday(birthday) {}
+    Person(int N, int Y, int M, int D, char id[18], char S = 'm'):birthday(Y,M,D){
+        num = N;
+        sex = S;
+        strcpy(ID,id);  //
+    }
+    Person(Person &p, Date birthday) : birthday(birthday) {
+        num = p.num;
+        sex = p.sex;
+        birthday = p.birthday;
+        strcpy(ID,p.ID);
+    }
+    inline void input(){
+        cout<<"Logging data:"<<endl;
+        cout<<"Number:"<<endl;
+        cin>>num;
+        cout<<"Sex(m/f):"<<endl;
+        cin>>sex;
+        cout<<"Birthday:"<<endl;
+        birthday.set();
+        cout<<"ID:"<<endl;
+        cin>>ID;
+        ID[18] = '\0';  //
+        cout<<endl;
+    }
+    inline void output(){
+        cout<<"Number:"<<num<<endl;
+        cout<<"Sex:"<<sex<<endl;
+        cout<<"Birthday:";
+        birthday.display();
+        cout<<endl;
+        cout<<"ID:"<<ID<<endl;
+    }
+    ~Person(){
+        cout<<"The staff of "<<num<<" has been entered.";
+    }
+};
+
+int main(){
+    Person p(Date(0, 0, 0));
+    p.input();
+    p.output();
+    return 0;
+}
