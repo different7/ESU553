@@ -1,8 +1,8 @@
 /**
  * Created by Hjh on 2022-01-22 17:51
  * 例5-10，文件1：类的定义
- */#ifndef INC_553CPP_POINT_H
-#define INC_553CPP_POINT_H
+ */#ifndef INC_553CPP_6_3_POINT2_H
+#define INC_553CPP_6_3_POINT2_H
 
 class Point{
 public:
@@ -17,4 +17,4 @@ private:
     static int count;  //静态数据成员
 };
 
-#endif //INC_553CPP_POINT_H
+#endif //INC_553CPP_6_3_POINT2_H
